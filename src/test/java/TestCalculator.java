@@ -21,7 +21,7 @@ public class TestCalculator {
         System.out.println("Test completed");
     }
 
-    @BeforeAll
+    @AfterAll
     public static void finishedAll() {
         System.out.println("Tests completed");
     }
